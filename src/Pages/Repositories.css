@@ -1,0 +1,83 @@
+.repoPage {
+    min-height: 100vh;
+    padding: 20px;
+    color: #e6edf3;
+}
+
+.basicKnowledge {
+    text-align: center;
+    margin-bottom: 30px;
+    text-decoration: none;
+}
+
+.basicKnowledge h1 {
+    font-size: 24px;
+    color: #e6edf3;
+    text-decoration: none;
+}
+
+.repobox {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+    padding-bottom: 40px;
+}
+
+.repoInfo {
+    background: #161b22;
+    border: 1px solid #30363d;
+    border-radius: 10px;
+    padding: 16px 20px;
+    width: 100%;
+    max-width: 700px;
+    transition: border 0.3s ease;
+}
+
+.repoInfo:hover {
+    border-color: #58a6ff;
+}
+
+.main_content_Git h2 {
+    font-size: 16px;
+    margin-bottom: 8px;
+    word-wrap: break-word;
+}
+
+.repo_description {
+    color: #8b949e;
+    font-size: 14px;
+    margin-bottom: 10px;
+    word-wrap: break-word;
+    line-height: 1.5;
+}
+
+.main_content_Git a {
+    color: #58a6ff;
+    font-size: 13px;
+    text-decoration: none;
+    word-break: break-all;
+}
+
+.main_content_Git a:hover {
+    text-decoration: underline;
+}
+
+.repos_url{
+  margin-top: 30px;
+}
+
+.language-tag {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    font-size: 13px;
+    color: #8b949e;
+}
+
+.lang-dot {
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background: #f1e05a; /* yellow for JavaScript */
+}

@@ -1,0 +1,14 @@
+nav{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+nav a{
+  text-decoration: none;
+    color: #58a6ff;  
+    font-weight: 500;
+}
+nav a:hover {
+    color: white;
+}
