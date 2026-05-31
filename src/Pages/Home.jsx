@@ -35,7 +35,7 @@ function Home() {
     navigate(`/user/${trimmedQuery}`);
   };
 
-  // 4. Function to remove a single history item
+
   const removeHistoryItem = (idToDelete) => {
     setHistory(prev => prev.filter(item => item.id !== idToDelete));
   };
